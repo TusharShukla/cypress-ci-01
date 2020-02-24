@@ -1,10 +1,10 @@
 /// <reference types="cypress" />
 
-describe('login', function(){
-    it('Sing in', function(){
-        cy.visit('https://yellowvdo.com/duty_free/admin')
-        cy.get('input[type="email"]').type('admin@admin.com')
-        cy.get('input[type="password"]').type('admin@123')
-        cy.get('input[type="submit"]').contains('Lets Go').should('be.visible').click()
+describe('contact_us', function(){
+    it('Contact', function(){
+        cy.visit('https://bombinate.com/login?ow=/')
+        cy.get('#cy-login-email').type('tushar.shukla@fusionfirst.co.in')
+        cy.get('#cy-login-password').type('12345678')
+        cy.get('#cy-login-button').click()
     })
 })
