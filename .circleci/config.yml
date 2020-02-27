@@ -5,7 +5,6 @@ workflows:
   build:
     jobs:
       - cypress/run:
-          executor: cypress/browsers-chrome69
-          browser: chrome
+          yarn: true
           record: true
         
