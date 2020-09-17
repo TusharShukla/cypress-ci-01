@@ -23,4 +23,4 @@ git commit -am "first commit" / git commit -m "first commit"
 GitHub -> 
 
 username : tushar.shukla@fusionfirst.co.in
-pass	 : Tush@r_123
+pass	 : Tushar.shukla@123
